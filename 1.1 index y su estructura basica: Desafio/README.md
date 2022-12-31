@@ -45,6 +45,9 @@
         * ##### 4.1.2.2 `<ul>` / `<ol>`
             > unordered lists y ordered lists en donde pueden ir otras etiquetas como `<li>` (list item)
 
+        * ##### 4.1.2.3 `<form action="">`
+            >Una zona semánticamente correcta en la cual agregar los **`<inputs>`** anidados cada uno dentro de su respectivo **`<label>`** en un formulario  
+            el atributo **`action`** se utiliza para apuntar a URL de bases de datos a la cual se desea enviar los datos captados.
 
     - #### 4.1.3 `<footer>`
         > Pie de página de la web
@@ -62,3 +65,11 @@
         > Etiqueta de párrafo
     - #### 4.2.5 `<a>`
         > Etiqueta anchor o ancla para agregar links
+    - #### 4.2.5 `<label for="label01">`
+        >Etiqueta de texto que suele anidar un input
+    - #### 4.2.5 `<input id="label01" type="text/date/time/etc">`
+        >Entrada con variados tipos de datos  
+        **`atributos:`**  
+        `id:`Un atributo que debe hacer match con el label para luego con js agregar eventos al label  
+        `type:`tipo de input que requiere el cambio, cambia su formato, puede ser ***text***, ***number***, ***date***, ***time***, etc  
+        `placeholder:`Es un texto opcional que puede ponerse en un `input` para dar ejemplo de qué elementos pueden llenar el lugar  
