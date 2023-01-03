@@ -71,5 +71,5 @@
         >Entrada con variados tipos de datos  
         **`atributos:`**  
         `id:`Un atributo que debe hacer match con el label para luego con js agregar eventos al label  
-        `type:`tipo de input que requiere el cambio, cambia su formato, puede ser ***text***, ***number***, ***date***, ***time***, etc  
+        `type:`tipo de input que requiere el cambio, cambia su formato, puede ser ***text***, ***number***, ***date***, ***time***, ***[etc](https://developer.mozilla.org/es/docs/Web/HTML/Element/input "etc").***  
         `placeholder:`Es un texto opcional que puede ponerse en un `input` para dar ejemplo de qué elementos pueden llenar el lugar  
