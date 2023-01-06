@@ -65,9 +65,9 @@
         > Etiqueta de párrafo
     - #### 4.2.5 `<a>`
         > Etiqueta anchor o ancla para agregar links
-    - #### 4.2.5 `<label for="label01">`
+    - #### 4.2.6 `<label for="label01">`
         >Etiqueta de texto que suele anidar un input
-    - #### 4.2.5 `<input id="label01" type="text/date/time/etc">`
+    - #### 4.2.7 `<input id="label01" type="text/date/time/etc">`
         >Entrada con variados tipos de datos  
         **`atributos:`**  
         `id:`Un atributo que debe hacer match con el label para luego con js agregar eventos al label  
@@ -79,3 +79,6 @@
         `<option>`
         Es una etiqueta de contenido que encierra un valor al igual que un combobox.  
         puede ir contenida tanto dentro de un `<select>`(no tan bueno) como dentro de un `<datalist>`(perfecto)  
+
+    - #### 4.2.8 `<button>`
+        >Etiqueta muy parecida a un input de tipo **submit**, con la diferencia de que es más personalizable, para tener un orden en la forma de programar, debería de usarse los `<input>` dentro de los `<forms>` y los `<button>` en cualquier otro lugar que no sea un form y se necesite un botón de acción.
