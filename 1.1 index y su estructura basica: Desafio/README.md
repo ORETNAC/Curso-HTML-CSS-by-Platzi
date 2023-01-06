@@ -72,4 +72,10 @@
         **`atributos:`**  
         `id:`Un atributo que debe hacer match con el label para luego con js agregar eventos al label  
         `type:`tipo de input que requiere el cambio, cambia su formato, puede ser ***text***, ***number***, ***date***, ***time***, ***[etc](https://developer.mozilla.org/es/docs/Web/HTML/Element/input "etc")***.  
-        `placeholder:`Es un texto opcional que puede ponerse en un `input` para dar ejemplo de qué elementos pueden llenar el lugar  
+        `placeholder:`Es un texto opcional que puede ponerse en un `input` para dar ejemplo de qué elementos pueden llenar el lugar.  
+        `autocomplete:`es un atributo de la etiqueta `input` que permite al navegador auto completar partes básicas de un formulario siempre y cuando el usuario las haya llenado en otra web y no sé información sensible.  
+        `required` es un atributo que hace obligatorio el llenado de input que lo tenga.  
+        `list="(id de la <datalist>)`  
+        `<option>`
+        Es una etiqueta de contenido que encierra un valor al igual que un combobox.  
+        puede ir contenida tanto dentro de un `<select>`(no tan bueno) como dentro de un `<datalist>`(perfecto)  
